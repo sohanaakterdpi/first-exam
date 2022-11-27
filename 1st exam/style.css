@@ -1,0 +1,35 @@
+.body{
+    background: url(./images/bg_main.gif)center;
+}
+container{
+    width:1012 ;
+    margin: 0 auto;
+}
+.row-topbar{
+background-color: rgb(79, 23, 209);
+color: white;
+height: 30px;
+font-size: 13px;
+line-height: 30px;
+border-bottom: 5px solid rgb(47, 201, 47);
+}
+.row-topbar p{
+display: inline-block;
+padding-right: 10px;
+margin-right:10px ;
+}
+.topbar-search a{
+    color: red;
+    text-decoration: none;
+}
+.navbar ul li a{
+    border-right: 1px solid rgb(255, 252, 252);
+}
+.navbar ul li:hover a{
+    background: orange;
+}
+.banner img{
+    border: 2px solid red;
+    padding: 6px;
+    margin-top: 20px;
+}
